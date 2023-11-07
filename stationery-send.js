@@ -12,7 +12,7 @@ function guardarYEnviarArchivoPorCorreo(contenido, destinatario, asunto, mensaje
         service: 'hotmail',
         auth: {
             user: 'adolfourso@hotmail.com',
-            pass: 'Rorty777'
+            pass: 'pirulo'
         }
     });
 
