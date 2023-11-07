@@ -11,8 +11,8 @@ function guardarYEnviarArchivoPorCorreo(contenido, destinatario, asunto, mensaje
     const transporter = nodemailer.createTransport({
         service: 'hotmail',
         auth: {
-            user: 'adolfourso@hotmail.com',
-            pass: 'pirulo'
+            user: 'process.env.EMAIL_USER',
+            pass: 'process.env.EMAIL_PASS'
         }
     });
 
